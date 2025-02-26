@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Switch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/mario_icon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Start of Header Contents -->
+    <div class="nav" id="header">
+        <div id="logo_container">
+            <img id="header-img" src="assets/nintendo_logo.png" alt="Nintendo Logo" />
+        </div>
+
+        <input type="checkbox" name="" id="checks">
+        <label for="checks">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#product_container">Nintendo Switch</a></li>
+                <li><a href="#features_container">Features</a></li>
+                <li><a href="#news_container">News and Updates</a></li>
+                <li><a href="#footer_container">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End of Header Contents -->
+
+    <!--  Start of Product Container -->
+    <div id="product_container">
+        <div id="prodimg_container"><img id="product-img" src="assets/ci_nswitch_features_top.png.avif" /></div>
+        <div id="product_description">
+            <p class="p_desc"><h1>Nintendo Switch - OLED Model</h1></p><br /><br />
+            <p class="p_desc">Available Now</p><br />
+            <p class="p_desc">$349.99 MSRP</p>
+        </div>
+    </div>
+    <!-- End of Product Container -->
+
+    <!-- Start of Features Container -->
+    <div id="features_container">
+        <div class="features_childCont" id="feat_a">
+            <h1 class="features_description">Enhanced features, brilliant fun</h1><br />
+            <p class="features_description">This model features a vibrant 7-inch OLED screen, a wide adjustable stand, a dock with a wired LAN port (LAN cable sold separately), 64 GB of internal storage (a portion of which is reserved for use by the system), and enhanced audio in handheld and tabletop modes.</p>
+        </div>
+        <div class="features_childCont" id="feat_b"><img class="features-img" src="assets/photo00.avif" /></div>
+
+        <div class="features_childCont" id="feat_c"><img class="features-img" src="assets/photo01.avif" /></div>
+        <div class="features_childCont" id="feat_d">
+            <h1 class="features_description">7-inch OLED screen</h1><br />
+            <p class="features_description">Feast your eyes on vivid colors and crisp contrast when you play on-the-go.</p><br />
+            <p class="features_description">See the difference the vibrant screen makes, whether you're racing at top speed or squaring off against enemies.</p>
+        </div>
+
+        <div class="features_childCont" id="feat_e">
+            <h1 class="features_description">Wide, adjustable stand</h1><br />
+            <p class="features_description">Flip out the sturdy stand for easy viewing in Tabletop mode.</p>
+        </div>
+        <div class="features_childCont" id="feat_f"><img class="features-img" src="assets/photo02.avif" /></div>
+
+        <div class="features_childCont" id="feat_g"><img class="features-img" src="assets/photo03.avif" /></div>
+        <div class="features_childCont" id="feat_h">
+            <h1 class="features_description">Find your best angle</h1><br />
+            <p class="features_description">Adjust the stand to find the optimal viewing angle—perfect for a quick multiplayer game with a buddy.</p>
+        </div>
+
+        <div class="features_childCont" id="feat_i">
+            <h1 class="features_description">Built-in wired LAN port</h1><br />
+            <p class="features_description">Connect online using the dock's LAN port when playing in TV mode.</p>
+        </div>
+        <div class="features_childCont" id="feat_j"><img class="features-img" src="assets/photo04.avif" /></div>
+
+        <div class="features_childCont" id="feat_k"><img class="features-img" src="assets/photo05.avif" /></div>
+        <div class="features_childCont" id="feat_l">
+            <h1 class="features_description">64 GB internal storage</h1><br />
+            <p class="features_description">Save games to your systems with 64 GB of internal storage, a portion of which is reserved for use by the system.</p>
+        </div>
+
+        <div class="features_childCont" id="feat_m"> 
+            <h1 class="features_description">Enhanced audio</h1><br />
+            <p class="features_description">Enjoy enhanced audio from the system's onboard speakers in Tabletop and Handheld modes.</p>
+        </div>
+        <div class="features_childCont" id="feat_n"><img class="features-img" src="assets/photo06.avif" /></div>
+    </div>
+     <!-- End of Features Container -->
+
+     <!-- Start of News and Updates -->
+    <div id="news_container">
+        <div id="news_title"><h1 id="news_titlestyle">News and Updates</h1></div>
+        <div class="video_container">
+            <iframe class="video_style" id="video" src="https://www.youtube.com/embed/FfbAyayKynY"></iframe>
+            <p class="video_desc">Nintendo OLED Official Trailer</p>
+        </div>
+        <div class="video_container">
+            <iframe class="video_style" id="video2" src="https://www.youtube.com/embed/0tL6PA_zB9s&t=141s"></iframe>
+            <p class="video_desc">Nintendo OLED Different Editions - Which is the Best?</p>
+        </div>
+    </div>
+
+    <!-- Start of Newsletter -->
+    <div id="newsletter_container">
+        <div id="news_title"><h1 id="newsletter_titlestyle">Sign up for our Newsletter!</h1></div>
+        <div id="newsletter_formContainer">
+            <form method="get" id="form">
+                <input type="email" class="w3-input" id="email" name="email_address" required placeholder="your email here" /><br />
+                <input type="submit" class="w3-button w3-black w3-round-small label_custom" id="submit" value="Send me updates!" /><br />
+            </form>
+        </div>
+    </div>
+
+    <!-- Start of Contact Us -->
+    <div id="footer_container">
+        <p>© Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA</p>
+    </div>
+</body>
+</html>
